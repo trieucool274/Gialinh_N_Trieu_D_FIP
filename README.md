@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mashup Beer Brand Website 
 
 Creating a 5 pages fully functioning website for an entirely new brand that was created by ‘mashing’ two given brands; Right Guard Deodorant and Dos Equis beer; together. The brand youcreate will have a set of branded/advertising/marketing deliverables.
@@ -56,3 +57,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+=======
+# Gialinh_Nguyen_Trieu_Do_HW3
+Each individual or team is responsible for creaHng their own website scaffold consisHng of Design file(s), HTML and CSS files. The scaffold will be based off of the wireframes selected from an individual or each partner.
+
+## Webpage about Right Gruad Beer brand which is the mashup between Don Equis and Right Gruad sence remover
+
+## Brand mashup into 5 page website inclube product, event ,about , contact and home page giving audience choices to buy and learn more about the product
+
+## Beer price around 3.99$ lowest and 20.99 highest 
+>>>>>>> 04f788ef107a0dbd60f95e4e71ac0164da1330c0
