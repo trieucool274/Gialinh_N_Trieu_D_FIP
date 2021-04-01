@@ -14,29 +14,28 @@
 		<h1 class="hidden">Main page</h1>
 		<div id="containeroutside">	
 			<header id="header">
-				<div id="space"> </div>
-				<div id="logo"> <img src="images/logo_main.png" alt="Main logo" width="400" height="230" >  </div>
+				<div id="logo"> <img src="images/logo_main.png" alt="Main logo" width="480" height="256" >  </div>
 				<div id="searchitems"> 	
-					<ul>
-						<img src="images/Search_glass.jpeg" alt="SearchIcon" width="25" height="20">
-						<input type="text" placeholder="Search...">
-					</ul>
-					<h3> Sign in /Sign Up </h3>
-					<h3> English /Francais </h3>		
+						<form id="searchForm">
+						<input type="text" placeholder="search here">
+					</form>
+					<a href="#"> Sign in /Sign Up </a>
+					<a href="#"> English /Francais </a>		
 				</div>
 			</header>
-			<section id="wideimage">
-				<h2 class="hidden"> Wide image</h2>
-					<h2 id="homenav"><a href="index.html">Home</a></h2>
-					<h2 id="aboutnav"><a href="about.html">About</a></h2>
-					<h2 id="eventnav"><a href="advertisement.html">Event</a></h2>
-					<h2 id="contactnav"><a href="contact.html">Contact</a></h2>
-					<h2 id="productnav"><a href="product.html">Product</a></h2>			
-			</section>
+			<div id="mainNav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="advertisement.html">Event</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="product.html">Product</a></li>	
+				</ul>		
+			</div>
 			<div id="containerinside">
 				<section id="Promotion">
 					<h2 class="hidden">Promotion section</h2>
-					<p id="Promotiontext"> • Product overview 
+					<p id="Promotiontext"> Product overview 
 						- A website that helps promote new beer brand as a mixture of Equis Dos brewery and Right Guard product’s features design.
 						- A website to buy products, receive promotions, find stores nearby, ordering online.	
 					</p>
@@ -46,39 +45,55 @@
 				</section>
 				<section id="Promoimage">
 					<h2 class="hidden">Wide Promotion image</h2>
-					<img src="images/Cheers.jpg" alt="Bottle" height="355" width="1400">
-				</section>
-				<button class="button button2"><a href="product.html">Learn more</a></button>
+					<img src="images/Cheers.jpg" alt="Bottle" height="500" width="1200">
+				<button >
+					<a href="advertisement.html">What's New</a>
+				</button>
+			</section>
 				<div class="product">
-	  				<div><img src="images/Beer_box.png" alt="Whole_Beer_box"><button><a href="product.html">Learn more></a></button></div>
-	  				<div><img src="images/Beer_bottle.jpg" alt="Whole_Beer_bottle" width="220" height="220"><button><a href="product.html">Learn more></a></button></div>
-	  				<div><img src="images/Beer_can.png" alt="Whole_Beer_can" width="220" height="220"><button><a href="product.html">Learn more></a></button></div>  
-	  				<div><img src="images/Bottle0001.jpg" alt="two_beer_bottle" width="220" height="220"><button><a href="product.html">Learn more></a></button></div>
-	  				<div><img src="images/Beer_glass.jpg" alt="beer_glass" width="220" height="220"><button><a href="product.html">Learn more></a></button></div>
+	  				<div>
+	  					<img src="images/Beer_box.png" alt="Whole_Beer_box" width="180" height="180"><button>
+	  						<a href="product.html">Learn more></a>
+	  					</button>
+	  				</div>
+	  				<div>
+	  					<img src="images/Beer_bottle.jpg" alt="Whole_Beer_bottle" width="180" height="180">
+	  					<button>
+	  						<a href="product.html">Learn more></a>
+	  					</button>
+	  				</div>
+	  				<div>
+	  					<img src="images/Beer_can.png" alt="Whole_Beer_can" width="180" height="180"><button>
+	  						<a href="product.html">Learn more></a>
+	  					</button>
+	  				</div>  
+	  				<div>
+	  					<img src="images/Bottle0001.jpg" alt="two_beer_bottle" width="180" height="180">
+	  					<button>
+	  						<a href="product.html">Learn more></a>
+	  					</button>
+	  				</div>
+	  				<div>
+	  					<img src="images/Beer_glass.jpg" alt="beer_glass" width="180" height="180">
+	  					<button>
+	  						<a href="product.html">Learn more></a>
+	  					</button>
+	  				</div>
 				</div>
 				<section id="Content">
 					<h2 class="hidden">Content Area</h2>
 					<h2> The design of the product are perfectly scale by original</h2>
 					<img src="images/Ken_Hailey.jpeg" alt="Ken_Hailey" >
 				</section>
-			</div>
-			<footer>
-				<section id="footenav">
-					<ul id="homenav"><a href="index.html">Home</a></ul>
-					<ul id="aboutnav"><a href="about.html">About</a></ul>
-					<ul id="eventnav"><a href="advertisement.html">Event</a></ul>
-					<ul id="contactnav"><a href="contact.html">Contact</a></ul>
-					<ul id="productnav"><a href="product.html">Product</a></ul>			
-				</section>				
-				<section id="Footer">
+				<section id="infoMain">
 					<h2 class="hidden">Footer Section</h2>
-					<ul id="Copyright">	
+					<ul>	
 						<li><h3>ADDRESS</h3></li>
 						<li><p>xxxxxxxxxxxxxxxxxxxxxx</p></li>
 						<li><h3> PHONE NUMBER</h3></li>
 						<li><p>xxxxxxxxxxxxxxxx</p></li>
 					</ul>
-					<ul id="hours">
+					<ul>
 						<li><h3>WORKING HOURS</h3></li>
 						<li><p>---------------</p></li>
 						<li><p>-------------</p></li>
@@ -90,6 +105,18 @@
 						<input type="submit" value="SUBMIT">
 					</div>
 				</section>
+			</div>
+			<footer>
+				<section id="footenav">
+					<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="advertisement.html">Event</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="product.html">Product</a></li>	
+				</ul>			
+				</section>				
+				
 				
 			</footer>
 		</div>
