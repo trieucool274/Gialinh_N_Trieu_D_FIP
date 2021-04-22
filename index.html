@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Right Guard Beer</title>
-		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<link href="css/main_page.css" rel="stylesheet" type="text/css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Ballet&family=Cinzel&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,12 +15,12 @@
 		<h1 class="hidden">Main page</h1>
 		<div id="containeroutside">	
 			<header id="header">
-				<div id="logo"> <img src="images/logo_main.png" alt="Main logo" width="480" height="256" >  </div>
+				<div id="logo"> <img src="images/logo_main.png" alt="Main logo" max-width="480" height="256" >  </div>
 				<div id="searchitems"> 	
 						<form id="searchForm">
 						<input type="text" placeholder="search here">
 					</form>
-					<a href="#"> Sign in /Sign Up </a>
+					<a href="contact.html"> Sign in /Sign Up </a>
 					<a href="#"> English /Francais </a>		
 				</div>
 			</header>
@@ -40,7 +41,8 @@
 						- A website to buy products, receive promotions, find stores nearby, ordering online.	
 					</p>
 					<div id="Promotioniamge">
-						<img src="images/beer_glass.png" alt="beerglassprofile" width="700" height="570">
+						<source srcet="images/beer_glass.png" max-width="400" max-height="270" media="(min-width: 400px)">
+						<img src="images/beer_glass.png" alt="beerglassprofile" max-width="700" max-height="570">
 					</div>
 				</section>
 				<section id="Promoimage">
@@ -50,7 +52,7 @@
 					<a href="advertisement.html">What's New</a>
 				</button>
 			</section>
-				<div class="product">
+				<div class="product" media="(min-width: 400px)">
 	  				<div>
 	  					<img src="images/Beer_box.png" alt="Whole_Beer_box" width="180" height="180"><button>
 	  						<a href="product.html">Learn more></a>
@@ -107,7 +109,7 @@
 				</section>
 			</div>
 			<footer>
-				<section id="footenav">
+				<section id="footer">
 					<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
